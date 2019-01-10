@@ -185,7 +185,7 @@
         "m3.xlarge"
       ],
       "ConstraintDescription": "Must be a valid EC2 HVM instance type.",
-      "Default": "m4.xlarge"
+      "Default": "t2.large"
     }
   },
   "Resources": {
