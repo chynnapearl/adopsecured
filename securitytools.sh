@@ -1,6 +1,8 @@
 #!/bin/bash
 set +x
 
+ssh -tt -i dsotesting.pem ec2-user@13.52.35.83
+
 echo "***** UPDATE OS *****"
 sudo yum update -y
 echo "***** INSTALL GIT *****"
