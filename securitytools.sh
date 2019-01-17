@@ -1,5 +1,4 @@
-#!/bin/bash
-set +x
+curl ifconfig.co
 
 ssh -tt -i dsotesting.pem ec2-user@13.52.35.83
 
