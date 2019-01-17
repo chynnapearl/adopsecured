@@ -1,6 +1,6 @@
 curl ifconfig.co
 
-ssh -tt -i dsotesting.pem ec2-user@13.52.35.83
+ssh -tt -i dsotesting.pem ec2-user@10.10.2.82
 
 echo "***** UPDATE OS *****"
 sudo yum update -y
