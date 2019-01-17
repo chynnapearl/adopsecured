@@ -1,5 +1,4 @@
-curl ifconfig.co
-
+hostname
 echo "***** SSH *****"
 ssh -tt -i dsotesting.pem ec2-user@10.10.2.82
 
