@@ -1,5 +1,6 @@
 curl ifconfig.co
 
+echo "***** SSH *****"
 ssh -tt -i dsotesting.pem ec2-user@10.10.2.82
 
 echo "***** UPDATE OS *****"
